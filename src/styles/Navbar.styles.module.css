@@ -1,0 +1,30 @@
+.appContainer {
+	height: 100vh;
+	width: 100vw;
+}
+.headerLg {
+	display: flex;
+	flex-direction: row;
+	height: 3rem;
+	width: 100%;
+	background-color: black;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	overflow: auto;
+}
+.control {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: white;
+	cursor: pointer;
+}
+.heading {
+	flex-shrink: 2;
+}
+.title {
+	color: white;
+	cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.loginContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.iconBg {
+	background-color: cyan;
+	border: 1px double black;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	cursor: pointer;
+	padding: 1rem;
+}
+
+.alert {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
