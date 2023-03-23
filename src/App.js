@@ -17,6 +17,7 @@ import React, { useState, useEffect } from "react";
 import { Amplify, Auth, Hub } from "aws-amplify";
 import { CognitoHostedUIIdentityProvider } from "@aws-amplify/auth";
 import awsConfig from "./aws-exports";
+import Create from "./routes/Create.component";
 
 Amplify.configure(awsConfig);
 function App() {
@@ -95,6 +96,7 @@ function App() {
 						element={<LoginPage handleSignIn={googleSignIn} />}
 					/>
 					<Route path="/" element={<HomePage user={user} />} />
+					<Route path="/create" element={<Create user={user} />} />
 				</Route>
 			</Routes>
 		</div>
