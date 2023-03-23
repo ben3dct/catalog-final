@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import { Outlet, useNavigate } from "react-router-dom";
 
 const title = "Solution Catalog";
-const homeRoute = "/home";
+const homeRoute = "/";
 
 export default function Navbar(props) {
 	const { user, handleSignIn, handleSignOut } = props;

@@ -1,0 +1,49 @@
+.itemContainer {
+	flex-basis: 50%;
+	flex-grow: 1;
+	height: 150px;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	display: flex;
+	flex-direction: row;
+}
+.item {
+	border: 2px solid #303644;
+	border-radius: 6px;
+	background-color: #2c313e;
+	height: 100%;
+	width: 100%;
+}
+
+.itemBody {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 1rem;
+}
+.itemTitle,
+.itemMeta,
+.itemDesc {
+	color: white;
+}
+
+.itemTitle,
+.itemMeta {
+	min-height: 1rem;
+}
+.itemDesc {
+	flex-grow: 1;
+	padding-left: 0.5rem;
+}
+.itemMeta {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-top: 1px solid grey;
+}
+.itemMeta span {
+	color: grey !important;
+}
+
+.itemContainer div:hover h4 {
+	color: #00acc1 !important;
+}

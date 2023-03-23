@@ -7,10 +7,11 @@
 	flex-direction: row;
 	height: 3rem;
 	width: 100%;
-	background-color: black;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	background-color: #303644;
+	padding-left: 0.5rem;
+	padding-right: 4rem;
 	justify-content: space-between;
+	box-shadow: 0 0 35px 0 rgba(54, 61, 71, 0.15);
 	align-items: center;
 	overflow: auto;
 }
@@ -20,6 +21,7 @@
 	justify-content: space-evenly;
 	color: white;
 	cursor: pointer;
+	background-color: #343b4a;
 }
 .heading {
 	flex-shrink: 2;
